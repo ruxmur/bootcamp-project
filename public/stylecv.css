@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+*, *::after, *::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    font-family: 'Open Sans';
+    color: rgb(38, 59, 37);
+    background-color: lightgray;
+    }
+
+header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(165, 187, 165);
+    padding: 15px 40px;
+    color: rgb(28, 61, 39);
+    }
+
+
+footer {
+    position: fixed;
+    right: 10px;
+    bottom: -100px;
+   /*height: 50px; */
+    padding: 150px 10px;
+    background-color: none;
+    border-radius: 10px;
+    }
+
+
+main { 
+    flex-direction: row;
+    min-height: 100vh;
+     
+}
+
+
+.left_section {
+   padding: 250px;
+   max-width: 300px;
+   background-color: rgb(192, 188, 223);
+}
+
+
+.right_section {
+    display: grid;
+    padding: 50px;
+    margin: -1315px 500px;
+    max-width: 1500px;
+    background-color: lightgray;
+       
+}
+
+
+#about img:hover {
+   outline: 2px solid rgb(153, 177, 167);
+   outline-offset: 5px;
+   cursor: pointer;
+}
+
+
+ #toTop {
+        width:100px;
+        border:1px solid rgb(172, 186, 190);
+        background:#a0c9b2;
+        text-align:center;
+        padding:5px;
+        position:fixed;
+        bottom:10px; /* отступ кнопки от нижнего края страницы*/
+        right:10px;
+        cursor:pointer;
+        display:none;
+        color:#333;
+        font-family:verdana;
+        font-size:11px;
+        } 
+
+ 
+
+     
