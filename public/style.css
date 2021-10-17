@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-
+*/
 *, *::after, *::before {
     padding: 0;
     margin: 0;
@@ -11,7 +11,8 @@ body {
     font-family: 'Open Sans';
     color: rgb(38, 59, 37);
     background-color: lightgray;
-    }
+    min-height: 100vh;
+}
 
 header {
     position: sticky;
@@ -36,28 +37,39 @@ footer {
     border-radius: 10px;
     }
 
+@media (min-width: 0) {
+    .container-grid { 
+        display: grid;
+        grid-template-columns: 1fr;
+        min-height: 100vh;
+    }
+}
 
-main { 
-    flex-direction: row;
-    min-height: 100vh;
-     
+@media (min-width: 992px) {
+    .container-grid { 
+        display: grid;
+        grid-template-columns: 400px 1fr;
+        min-height: 100vh;
+    }
 }
 
 
 .left_section {
-   padding: 250px;
-   max-width: 300px;
    background-color: rgb(192, 188, 223);
 }
 
+#personal-information {
+    padding: 20px;
+}
+
+.form {
+    padding : 20px;
+}
 
 .right_section {
-    display: grid;
-    padding: 50px;
-    margin: -1315px 500px;
-    max-width: 1500px;
+    padding: 50px !important;
     background-color: lightgray;
-       
+    
 }
 
 
@@ -85,5 +97,4 @@ main {
         } 
 
  
-
      
