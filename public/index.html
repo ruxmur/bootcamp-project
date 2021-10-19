@@ -1,38 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Europass Curriculum Vitae</title>
-    <link rel="stylesheet" href="stylecv.css" />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css"/>
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"/>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"></script>
-
-    <script>
-      $(document).ready(function () {
-        $(".toast").toast({
-          autohide: false,
-        });
-      });
-    </script>
   </head>
-
   <body>
-   
     <header>
       <img
         width="80"
@@ -55,287 +36,319 @@
     </header>
 
     <main class="container-grid">
-        <div class="left_section">
-            <img style="width: 100%;"
-            src="file:/home/rux/bootcamp-project/public/MicrosoftTeams-image.png"
-            alt="avatar"/>
-            
-                <section id="personal-information">
-                  <h2>Personal information</h2>
-    
-                  <p>
-                    <br/><u>First name(s) / Surname(s)</u>
-                    <br/><span>Ruxanda MURTACAEVA</span>
-                  </p>
-    
-                  <p>
-                    <u>Telephone(s)</u>
-                    <br><span><a href="tel:+37300000000">+37300000000</a></span>
-                  </p>
-    
-                  <p>
-                    <u>Email</u>
-                    <span><br/><a href="mailto=">r.mur@mur.com</a></span>
-                  </p>
-    
-                  <p>
-                    <u>Adress(es)</u>
-                    <span><br/>Chisinau, Republic of Moldova</span>
-                  </p>
-    
-                  <p>
-                    <u>Website link</u>
-                    <span><br/><a href="https://www.linkedin.com/in/ruxanda-murtacaeva-247734216/">https://www.linkedin.com/in/ruxanda-murtacaeva-247734216/</a></span>
-                  </p>
-    
-                  <p>
-                    <u>Date of birth</u> 
-                    <span><br/>10.02.1994</span>
-                  </p>
-    
-                  <p>
-                    <u>Gender</u> 
-                    <span><br/>Female</span>
-                  </p>
-                </section>
-    
-                <form class="form">
-                  <div><h5>Messages and Suggestions</h5></div>
-                  <div class="mb-3">
-                    <label for="exampleNameandSurname" class="form-label">Name / Surname</label>
-                    <input
-                      class="form-control"
-                      id="exampleNameandSurname"
-                      placeholder="Name and Surname"/>
-                  </div>
-    
-                  <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label"
-                      >Email address</label>
-                    <input
-                      type="email"
-                      class="form-control"
-                      id="exampleInputEmail1"
-                      aria-describedby="emailHelp"
-                      placeholder="name@example.com"/>
-                    <div id="emailHelp" class="form-text">
-                      We'll never share your email with anyone else.
-                    </div>
-                  </div>
-                  <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label"
-                      >Example textarea</label>
-                    <textarea
-                      class="form-control"
-                      id="exampleFormControlTextarea1" rows="3"></textarea>
-                  </div>
-                  <button type="submit" class="btn btn-secondary">Submit</button>
-                </form>
-        </div>
+      <div class="left_section">
+        <img
+          style="width: 100%"
+          src="file:/home/rux/bootcamp-project/public/MicrosoftTeams-image.png"
+          alt="avatar"/>
+
+        <section id="personal-information">
+          <h2>Personal information</h2>
+
+          <p>
+            <br/><u>First name(s) / Surname(s)</u><br/>
+            <span>Ruxanda MURTACAEVA</span>
+          </p>
+
+          <p>
+            <u>Telephone(s)</u>
+            <br/><span><a href="tel:+37300000000">+37300000000</a></span>
+          </p>
+
+          <p>
+            <u>Email</u>
+            <span><br/><a href="mailto=">r.mur@mur.com</a></span>
+          </p>
+
+          <p>
+            <u>Adress(es)</u>
+            <span><br/>Chisinau, Republic of Moldova</span>
+          </p>
+
+          <p>
+            <u>Website link</u>
+            <span
+              ><br/><a
+                href="https://www.linkedin.com/in/ruxanda-murtacaeva-247734216/"
+                >https://www.linkedin.com/in/ruxanda-murtacaeva-247734216/</a></span>
+          </p>
+
+          <p>
+            <u>Date of birth</u>
+            <span><br/>10.02.1994</span>
+          </p>
+
+          <p>
+            <u>Gender</u>
+            <span><br/>Female</span>
+          </p>
+        </section>
+
+        <form class="form" >
+          <div><h5>Get in Touch</h5></div>
+          <div class="row g-3 needs-validation">
+            <div class="col-md-5">
+              <label for="validationCustom01" 
+              class="form-label">First name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="validationCustom01"
+                value=""
+                required
+                minlength="2"/>
+              <div class="valid-feedback">Looks good!</div>
+            </div>
+            <div class="col-md-5">
+              <label for="validationCustom02" 
+              class="form-label">Last name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="validationCustom02"
+                value=""
+                required/>
+              <div class="valid-feedback">Looks good!</div>
+            </div>
+            <div class="col-md-5">
+              <label for="validationCustom03" class="form-label">City</label>
+              <input
+                type="text"
+                class="form-control"
+                id="validationCustom03"
+                required/>
+              <div class="invalid-feedback">Please provide a valid city.</div>
+            </div>
+            <div class="col-md-5">
+              <label for="validationCustom04" class="form-label">Country</label>
+              <select class="form-select" id="validationCustom04" required>
+                <option selected disabled value="">Choose...</option>
+                <option>Moldova</option>
+                <option>Ukraine</option>
+                <option>Germany</option>
+              </select>
+              <div class="invalid-feedback">Please select a valid state.</div>
+            </div>
+            <div class="col-md-8">
+              <label for="exampleInputEmail1" 
+              class="form-label">Email address</label>
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="name@example.com"/>
+              <div id="emailHelp" class="form-text">
+                We'll never share your email with anyone else.
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" 
+              class="form-label">Please write something</label>
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"></textarea>
+            </div>
+
+            <div class="col-6">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="invalidCheck"
+                  required/>
+                <label class="form-check-label" for="invalidCheck">
+                  Agree to terms and conditions
+                </label>
+                <div class="invalid-feedback">
+                  You must agree before submitting.
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6">
+              <button class="btn btn-secondary" type="submit" id="liveToastBtn">
+                Submit form
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
       <div class="container-fluid right_section">
         <section id="experience">
-        <div class="row">
-            <h2>Experience</h2>
-        </div>
           <div class="row">
-              <div class="col-4"><u>Dates</u></div>
-              <div class="col-8">February 2021 - Present</div>
+            <h2>Experience</h2>
+          </div>
+          <div class="row">
+            <div class="col-4"><u>Dates</u></div>
+            <div class="col-8">February 2021 - Present</div>
           </div>
           <div class="row">
             <div class="col-4"><u>Occupation or position held</u></div>
-            <div class="col-8">Business Development Assistant at Developmentaid.IT</div>
-        </div>
-        <div class="row">
+            <div class="col-8"><b>Business Development Assistant at Developmentaid.IT</b></div>
+          </div>
+          <div class="row">
             <div class="col-4"><u>Main activities and responsibilities</u></div>
             <div class="col-8">Identify and develop new business prospects from multiple and
-                handle, and other tasks of team lead</div>
-        </div>
-        <div class="row">
+              handle, and other tasks of team lead</div>
+          </div>
+          <div class="row">
             <div class="col-4"><u>Name and address of employer</u></div>
             <div class="col-8">DevelopmentAid, Chisinau, Republic of Moldova</div>
-        </div>
-        <div class="row">
-            <div class="col-4"><u>Type of business or sector</u></div>
-            <div class="col-8">Membership Organisation</div>
-        </div>
-
-        
-        <br><div class="row">
-              <div class="col-4"><u>Dates</u></div>
-              <div class="col-8">September 2020 – November 2020</div>
+          </div>
+          
+          <br/>
+          <div class="row">
+            <div class="col-4"><u>Dates</u></div>
+            <div class="col-8">September 2020 – November 2020</div>
           </div>
           <div class="row">
             <div class="col-4"><u>Occupation or position held</u></div>
-            <div class="col-8">Public executive position of main specialist (responsible for
-                urban planning, architecture and constructions) within the
-                Apparatus of the chairman of Drochia district</div>
-        </div>
-        <div class="row">
+            <div class="col-8"><b>Public executive position of main specialist</b> (responsible for
+              urban planning, architecture and constructions) within the
+              Apparatus of the chairman of Drochia district</div>
+          </div>
+          <div class="row">
             <div class="col-4"><u>Main activities and responsibilities</u></div>
             <div class="col-8">Contribution to the implementation of architectural-urban
-                activities and land use planning, development and maintenance
-                of public buildings, roads, water supply and sewerage systems,
-                water purification, sanitation, storage and use of household
-                waste</div>
-        </div>
-        <div class="row">
+              activities and land use planning, development and maintenance of
+              public buildings, roads, water supply and sewerage systems, water
+              purification, sanitation, storage and use of household waste</div>
+          </div>
+          <div class="row">
             <div class="col-4"><u>Name and address of employer</u></div>
             <div class="col-8">Drochia District Council</div>
-        </div>
-        <div class="row">
-            <div class="col-4"><u>Type of business or sector</u></div>
-            <div class="col-8">Public institution</div>
-        </div>
-
-
-        <br><div class="row">
+          </div>
+          
+          <br/>
+          <div class="row">
             <div class="col-4"><u>Dates</u></div>
             <div class="col-8">December 2018 – February 2020</div>
-        </div>
-        <div class="row">
-          <div class="col-4"><u>Occupation or position held</u></div>
-          <div class="col-8">Civil Engineer</div>
-         </div>
-        <div class="row">
-          <div class="col-4"><u>Main activities and responsibilities</u></div>
-          <div class="col-8">Development, analysis of design documentation; non-standard
-            equipment design; design and calculation of parts, assemblies,
-            mechanisms; assembly and production technology</div>
-        </div>
-        <div class="row">
-          <div class="col-4"><u>Name and address of employer</u></div>
-          <div class="col-8">S.R.L. “Südzucker-Moldova”. Drochia, Republic of
-            Moldova</div>
-        </div>
-        <div class="row">
-          <div class="col-4"><u>Type of business or sector</u></div>
-          <div class="col-8">Sugar production, Biogas</div>
-        </div>
+          </div>
+          <div class="row">
+            <div class="col-4"><u>Occupation or position held</u></div>
+            <div class="col-8"><b>Civil Engineer</b></div>
+          </div>
+          <div class="row">
+            <div class="col-4"><u>Main activities and responsibilities</u></div>
+            <div class="col-8">Development, analysis of design documentation; non-standard
+              equipment design; design and calculation of parts, assemblies,
+              mechanisms; assembly and production technology</div>
+          </div>
+          <div class="row">
+            <div class="col-4"><u>Name and address of employer</u></div>
+            <div class="col-8">S.R.L. “Südzucker-Moldova”. Drochia, Republic of Moldova</div>
+          </div>
 
-
-        <br><div class="row">
+          <br/>
+          <div class="row">
             <div class="col-4"><u>Dates</u></div>
             <div class="col-8">January 2018 – February 2020</div>
-        </div>
-        <div class="row">
-          <div class="col-4"><u>Occupation or position held</u></div>
-          <div class="col-8">Chief executive</div>
-         </div>
-        <div class="row">
-          <div class="col-4"><u>Main activities and responsibilities</u></div>
-          <div class="col-8">Executive and representative face</div>
-        </div>
-        <div class="row">
-          <div class="col-4"><u>Name and address of employer</u></div>
-          <div class="col-8">“AFAS”, Drochia, Republic of Moldova</div>
-        </div>
-        <div class="row">
-          <div class="col-4"><u>Type of business or sector</u></div>
-          <div class="col-8">Non-governmental organization</div>
-        </div>
-
-
-        <br><div class="row">
+          </div>
+          <div class="row">
+            <div class="col-4"><u>Occupation or position held</u></div>
+            <div class="col-8"><b>Chief executive</b></div>
+          </div>
+          <div class="row">
+            <div class="col-4"><u>Main activities and responsibilities</u></div>
+            <div class="col-8">Executive and representative face</div>
+          </div>
+          <div class="row">
+            <div class="col-4"><u>Name and address of employer</u></div>
+            <div class="col-8">“AFAS”, Drochia, Republic of Moldova</div>
+          </div>
+          
+          <br/>
+          <div class="row">
             <div class="col-4"><u>Dates</u></div>
             <div class="col-8">August 2017 – February 2020</div>
-        </div>
-        <div class="row">
-          <div class="col-4"><u>Occupation or position held</u></div>
-          <div class="col-8">Civil Engineer</div>
-         </div>
-        <div class="row">
-          <div class="col-4"><u>Main activities and responsibilities</u></div>
-          <div class="col-8">Calculation and design of civil buildings and
-            structures</div>
-        </div>
-        <div class="row">
-          <div class="col-4"><u>Name and address of employer</u></div>
-          <div class="col-8">“Biroul de proiectari, prospectiuni si servicii”, Drochia,
-            Republic of Moldova</div>
-        </div>
-        <div class="row">
-          <div class="col-4"><u>Type of business or sector</u></div>
-          <div class="col-8">Design of civil buildings and structures</div>
-        </div>
-
-
-        <br><div class="row">
+          </div>
+          <div class="row">
+            <div class="col-4"><u>Occupation or position held</u></div>
+            <div class="col-8"><b>Civil Engineer</b></div>
+          </div>
+          <div class="row">
+            <div class="col-4"><u>Main activities and responsibilities</u></div>
+            <div class="col-8">Calculation and design of civil buildings and structures</div>
+          </div>
+          <div class="row">
+            <div class="col-4"><u>Name and address of employer</u></div>
+            <div class="col-8">“Biroul de proiectari, prospectiuni si servicii”, Drochia,
+              Republic of Moldova</div>
+          </div>
+          
+          <br/>
+          <div class="row">
             <div class="col-4"><u>Dates</u></div>
             <div class="col-8">July 2016 – August 2016</div>
-        </div>
-        <div class="row">
-          <div class="col-4"><u>Occupation or position held</u></div>
-          <div class="col-8">Trainee-engineer in civil engineering</div>
-         </div>
-        <div class="row">
-          <div class="col-4"><u>Main activities and responsibilities</u></div>
-          <div class="col-8">Calculation and design of buildings and structures,
-            calculation of materials</div>
-        </div>
-        <div class="row">
-          <div class="col-4"><u>Name and address of employer</u></div>
-          <div class="col-8">S.R.L. “BOMI-Servis”, Drochia, Republic of Moldova</div>
-        </div>
-        <div class="row">
-          <div class="col-4"><u>Type of business or sector</u></div>
-          <div class="col-8">Production of bakery products, construction of industrial
-            civil buildings and structures, export of goods</div>
-        </div>
-
-
-        <br><div class="row">
+          </div>
+          <div class="row">
+            <div class="col-4"><u>Occupation or position held</u></div>
+            <div class="col-8"><b>Trainee-engineer in civil engineering</b></div>
+          </div>
+          <div class="row">
+            <div class="col-4"><u>Main activities and responsibilities</u></div>
+            <div class="col-8">Calculation and design of buildings and structures, calculation of
+              materials</div>
+          </div>
+          <div class="row">
+            <div class="col-4"><u>Name and address of employer</u></div>
+            <div class="col-8">S.R.L. “BOMI-Servis”, Drochia, Republic of Moldova</div>
+          </div>
+          
+          <br/>
+          <div class="row">
             <div class="col-4"><u>Dates</u></div>
             <div class="col-8">November 2010 – May 2013</div>
-        </div>
-        <div class="row">
-          <div class="col-4"><u>Occupation or position held</u></div>
-          <div class="col-8">Volunteer</div>
-         </div>
-        <div class="row">
-          <div class="col-4"><u>Main activities and responsibilities</u></div>
-          <div class="col-8">Informing adolescents in high schools</div>
-        </div>
-        <div class="row">
-          <div class="col-4"><u>Name and address of employer</u></div>
-          <div class="col-8">“Y-PEER” - Created by UNFPA in partnership with UNICEF.
-            Drochia, Republic of Moldova</div>
-        </div>
-        <div class="row">
-          <div class="col-4"><u>Type of business or sector</u></div>
-          <div class="col-8">Information and charity</div>
-        </div>
-          <br />
+          </div>
+          <div class="row">
+            <div class="col-4"><u>Occupation or position held</u></div>
+            <div class="col-8"><b>Volunteer</b></div>
+          </div>
+          <div class="row">
+            <div class="col-4"><u>Main activities and responsibilities</u></div>
+            <div class="col-8">Informing adolescents in high schools</div>
+          </div>
+          <div class="row">
+            <div class="col-4"><u>Name and address of employer</u></div>
+            <div class="col-8">“Y-PEER” - Created by UNFPA in partnership with UNICEF. Drochia,
+              Republic of Moldova</div>
+          </div>
+          <br/>
         </section>
 
         <section id="education">
-            <div class="row">
-                <h2>Education</h2>
-            </div>
-              <div class="row">
-                  <div class="col-4"><u>Dates</u></div>
-                  <div class="col-8">September 2013 – May 2017</div>
-              </div>
-              <div class="row">
-                <div class="col-4"><u>Title of qualification awarded</u></div>
-                <div class="col-8">Construction and Civil Engineering, Bachelor degree</div>
-              </div>
-              <div class="row">
-                <div class="col-4"><u>Name of organisation</u></div>
-                <div class="col-8">Technical University of Moldova, Chisinau, Republic of Moldova</div>
-              </div>
+          <div class="row">
+            <h2>Education</h2>
+          </div>
+          <div class="row">
+            <div class="col-4"><u>Dates</u></div>
+            <div class="col-8">September 2013 – May 2017</div>
+          </div>
+          <div class="row">
+            <div class="col-4"><u>Title of qualification awarded</u></div>
+            <div class="col-8"><b>Construction and Civil Engineering, Bachelor degree</b></div>
+          </div>
+          <div class="row">
+            <div class="col-4"><u>Name of organisation</u></div>
+            <div class="col-8">Technical University of Moldova, Chisinau, Republic of Moldova</div>
+          </div>
 
-              <br><div class="row">
-                <div class="col-4"><u>Dates</u></div>
-                <div class="col-8">September 2010 – May 2013</div>
-              </div>
-              <div class="row">
-                <div class="col-4"><u>Title of qualification awarded</u></div>
-                <div class="col-8">High school</div>
-              </div>
-              <div class="row">
-                <div class="col-4"><u>Name of organisation</u></div>
-                <div class="col-8">Lyceum “№3”, Drochia, Republic of Moldova</div>
-              </div>
+          <br/>
+          <div class="row">
+            <div class="col-4"><u>Dates</u></div>
+            <div class="col-8">September 2010 – May 2013</div>
+          </div>
+          <div class="row">
+            <div class="col-4"><u>Title of qualification awarded</u></div>
+            <div class="col-8"><b>High school</b></div>
+          </div>
+          <div class="row">
+            <div class="col-4"><u>Name of organisation</u></div>
+            <div class="col-8">Lyceum “№3”, Drochia, Republic of Moldova</div>
+          </div>
         </section>
 
         <section id="language-skills">
@@ -344,60 +357,134 @@
             <h2>Language skills</h2>
             <br/>
             <ul>
-              <li>Romanian</li>
-              <li>Russian</li>
-              <li>English</li>
-              <li>German</li>
+                <li class="main__skills-item">
+                    <span>Romanian</span> 
+                    <progress value="90" max="100"> 90% </progress>
+                </li>
+                <li class="main__skills-item">
+                    <span>Russian</span> 
+                    <progress value="90" max="100"> 90% </progress>
+                </li>
+                <li class="main__skills-item">
+                    <span>English</span> 
+                    <progress value="50" max="100"> 50% </progress>
+                </li>
+                <li class="main__skills-item">
+                    <span>German</span> 
+                    <progress value="10" max="100"> 10% </progress>
+                </li>
             </ul>
           </div>
         </section>
 
         <section id="computer-skills">
           <div>
-            <br /><br/>
+            <br/><br/>
             <h2>Computer skills</h2>
             <br/>
             <ul>
-              <li>ArchiCAD</li>
-              <li>AutoCAD</li>
-              <li>Ms Office (Word, Excel, PowerPoint, Project)</li>
-              <li>Windows</li>
+                <li class="main__skills-item">
+                    <span>ArchiCAD</span> 
+                    <progress value="90" max="100"> 90% </progress>
+                </li>
+                <li class="main__skills-item">
+                    <span>AutoCAD</span> 
+                    <progress value="68" max="100"> 68% </progress>
+                </li>  
+                <li class="main__skills-item">
+                    <span>Windows</span> 
+                    <progress value="48" max="100"> 48% </progress>
+                </li> 
+                <li class="main__skills-item">
+                    <span>Ms Office</span> 
+                    <progress value="68" max="100"> 68% </progress>
+                </li>   
+                <li class="main__skills-item">
+                    <span>HTML</span> 
+                    <progress value="3" max="100"> 3% </progress>
+                </li>
+                <li class="main__skills-item">
+                    <span>CSS</span> 
+                    <progress value="3" max="100"> 3% </progress>
+                </li>
             </ul>
           </div>
         </section>
       </div>
     </main>
-          
 
     <footer>
-        <div class="toast-container">
-        <div class="toast fade show">
+      <div class="toast-container">
+        <div class="toast fade" id="liveToast">
           <div class="toast-header">
-            <strong class="me-auto"><i class="bi-globe"></i>Guten Tag!</strong>
+            <strong class="me-auto">
+                <i class="bi-globe"></i>Thanks for visit!</strong>
             <small>just now</small>
             <button
-              type="button"
-              class="btn-close"
+              type="submit"
+              class="btn btn-secondary"
               data-bs-dismiss="toast"></button>
           </div>
-          <div class="toast-body">Wie geht's?</div>
+          <div class="toast-body">See you soon!</div>
         </div>
-        <div class="toast fade show">
-            <div class="toast-header">
-              <strong class="me-auto"><i class="bi-globe"></i>Thanks for visit!</strong>
-              <small>just now</small>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="toast"></button>
-            </div>
-            <div class="toast-body">See you soon!</div>
-          </div>
-      <div>&copy; European Union, 2004-2021</div>
-      <audio src="file:/home/rux/bootcamp-project/public/frends.mp3" autoplay loop controls>
-        <p>If you are reading this, it is because your browser does not support the audio element.</p>
-        </audio> 
-        </div>
+
+        <div>&copy; European Union, 2004-2021</div>
+        <audio
+          src="file:/home/rux/bootcamp-project/public/frends.mp3"
+          autoplay loop controls>
+          <p>
+            If you are reading this, it is because your browser does not support
+            the audio element.
+          </p>
+        </audio>
+      </div>
     </footer>
-</body>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script> -->
+    <script src="/home/rux/bootcamp-project/public/Bootstrap/JS/bootstrap.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".toast").toast({
+          autohide: false,
+        });
+      });
+
+      var toastTrigger = document.getElementById("liveToastBtn");
+      var toastLiveExample = document.getElementById("liveToast");
+      if (toastTrigger) {
+        toastTrigger.addEventListener("click", function () {
+          var toast = new bootstrap.Toast(toastLiveExample)(function () {
+            "use strict";
+
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.querySelectorAll(".needs-validation");
+
+            // Loop over them and prevent submission
+            Array.prototype.slice.call(forms).forEach(function (form) {
+              console.log(form);
+              form.addEventListener(
+                "submit",
+                function (event) {
+                  if (!form.checkValidity()) {
+                    event.preventDefault();
+                    event.stopPropagation();
+                  }
+
+                  form.classList.add("was-validated");
+                },
+                false
+              );
+            });
+          })();
+          toast.show();
+        });
+      }
+    </script>
+  </body>
 </html>
