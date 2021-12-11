@@ -1,0 +1,201 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*/
+*, *::after, *::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    font-family: 'Open Sans';
+    color: rgb(38, 59, 37);
+    background-color: lightgray;
+    min-height: 100vh;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(165, 187, 165);
+    padding: 15px 40px;
+    color: rgb(28, 61, 39);
+    }
+
+
+footer {
+    position: fixed;
+    right: 10px;
+    bottom: -100px;
+   /*height: 50px; */
+    padding: 150px 10px;
+    background-color: none;
+    border-radius: 10px;
+    }
+
+@media (min-width: 0) {
+    .container-grid { 
+        display: grid;
+        grid-template-columns: 1fr;
+        min-height: 100vh;
+    }
+}
+
+@media (min-width: 992px) {
+    .container-grid { 
+        display: grid;
+        grid-template-columns: 400px 1fr;
+        min-height: 100vh;
+    }
+}
+
+
+.left_section {
+   background-color: rgb(192, 188, 223);
+}
+
+#personal-information {
+    padding: 20px;
+}
+
+.form {
+    padding : 20px;
+   
+}
+
+.right_section {
+    padding: 50px !important;
+    background-color: lightgray;
+    
+}
+
+
+#about img:hover {
+   outline: 2px solid rgb(153, 177, 167);
+   outline-offset: 5px;
+   cursor: pointer;
+}
+
+
+ #toTop {
+        width:100px;
+        border:1px solid rgb(172, 186, 190);
+        background:#a0c9b2;
+        text-align:center;
+        padding:5px;
+        position:fixed;
+        bottom:10px; /* отступ кнопки от нижнего края страницы*/
+        right:10px;
+        cursor:pointer;
+        display:none;
+        color:#333;
+        font-family:verdana;
+        font-size:11px;
+        } 
+
+ 
+     /* @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*/
+*, *::after, *::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    font-family: 'Open Sans';
+    color: rgb(38, 59, 37);
+    background-color: lightgray;
+    min-height: 100vh;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(180, 196, 180); 
+    padding: 10px 40px;
+    color: rgb(28, 61, 39);
+    }
+
+
+footer {
+    position: fixed;
+    right: 10px;
+    bottom: -100px;
+   /*height: 50px; */
+    padding: 150px 10px;
+    background-color: none;
+    border-radius: 10px;
+    }
+
+@media (min-width: 0) {
+    .container-grid { 
+        display: grid;
+        grid-template-columns: 1fr;
+        min-height: 100vh;
+    }
+}
+
+@media (min-width: 992px) {
+    .container-grid { 
+        display: grid;
+        grid-template-columns: 400px 1fr;
+        min-height: 100vh;
+    }
+}
+
+
+.left_section {
+   background-color: rgb(192, 188, 223);
+}
+
+#personal-information {
+    padding: 20px;
+}
+
+.form {
+    padding : 20px;
+   
+}
+
+.right_section {
+    padding: 50px !important; 
+    background-color: lightgray; 
+        
+}
+
+
+#about img:hover {
+   outline: 2px solid rgb(153, 177, 167);
+   outline-offset: 5px;
+   cursor: pointer;
+}
+
+
+ #toTop {
+        width:100px;
+        border:1px solid rgb(172, 186, 190);
+        background:#a0c9b2;
+        text-align:center;
+        padding:5px;
+        position:fixed;
+        bottom:10px; /* отступ кнопки от нижнего края страницы*/
+        right:10px;
+        cursor:pointer;
+        display:none;
+        color:#333;
+        font-family:verdana;
+        font-size:11px;
+        } 
+
+
+  
